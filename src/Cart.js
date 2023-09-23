@@ -4,6 +4,8 @@ import CartItem from "./components/CartItem";
 
 const Cart = () => {
   const { cart } = useCartContext();
+  const subtotal = cart.reduce((total, curElem) => total + curElem.price * curElem.amount, 0);
+
   console.log("🚀 ~ file: Cart.js ~ line 6 ~ Cart ~ cart", cart);
   return (
     <Wrapper>
@@ -21,6 +23,14 @@ const Cart = () => {
           {cart.map((curElem) => {
             return <CartItem key={curElem.id} {...curElem} />;
           })}
+        </div>
+        <div className="order-total--amount">
+          <div className="order-total--subdata">
+            <div>
+              <p>Total:</p>
+              <p>${subtotal.toFixed(2)}</p>
+            </div>
+          </div>
         </div>
       </div>
     </Wrapper>
