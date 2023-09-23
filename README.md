@@ -2,6 +2,8 @@
 
 ## Follow the 3 Steps and your good to go. 
 
+This Porject has been built using react and css
+
 1: Clone the Project 
 
 2: simply run the command 
