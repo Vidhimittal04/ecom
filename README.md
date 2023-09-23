@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Welcome to Thapa Technical React Ecommerce Webstie Series 
 
 ## Follow the 3 Steps and your good to go. 
@@ -84,7 +83,3 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-=======
-# ecom
-Ecommerce project
->>>>>>> 9fdc884b27648b6549fa5bec8e952b6e1ea675fb
